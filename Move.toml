@@ -1,0 +1,11 @@
+[package]
+name = "thridparty_city_weather_oracle_nft_minter"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "c9b896c0b" }
+oracle = { git = "https://github.com/georgedigkas/weather-oracle", rev = "1c43cf3" }
+
+[addresses]
+thridparty_city_weather_oracle_nft_minter = "0x0"
+oracle = "0x8378b3bd39931aa74a6aa3a820304c1109d327426e4275183ed0b797eb6660a8"
